@@ -22,6 +22,7 @@ def rewind(f):
 #need to open the file before you can read it!
 current_file = open(input_file)
 
+#function reads it line by line
 def print_a_line(line_count,f):
     print(line_count, f.readline())
 
