@@ -27,4 +27,4 @@ from sys import argv
 # txt.close()
 script, filename = argv
 print("The name of your file %s()" %(script))
-print(filename.open())
+print((open(filename)).read())
