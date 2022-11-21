@@ -24,6 +24,7 @@ def bear_room():
             print(bear_moved)
             print("The bear has moved you can go through!")
             bear_moved = True
+##once bear_moved changes to True, when user runs taunt, the below statement will run!
         elif next == "taunt" and bear_moved:
             print("The bear is going to attack you!")
         elif next == "open" and bear_moved:
