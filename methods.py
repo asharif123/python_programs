@@ -13,4 +13,9 @@ print(stuff)
 ##print last item
 print(stuff[-1])
 
-print(stuff[3:5])
+# print(stuff[3:5])
+
+##join statemnents
+print(','.join(stuff))
+
+print('#'.join(stuff[3:5]))
