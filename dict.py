@@ -24,7 +24,7 @@ cities["OR"] = "Oregon"
 
 print("NY State has", states["New York"])
 
-#print every state abbreviation from states dictionary
+#print every state and abbreviation from states dictionary
 for state, abbrev in states.items():
     print("%s is abbreviated %s\n" %(state, abbrev))
 

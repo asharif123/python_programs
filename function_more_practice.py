@@ -32,6 +32,7 @@ def bear_room():
             gold_room()
         else:
             print("Invalid input!")
+            break
 
 
 
