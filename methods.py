@@ -16,6 +16,7 @@ print(stuff[-1])
 # print(stuff[3:5])
 
 ##join statemnents
-print(','.join(stuff))
+# print(','.join(stuff))
+print('################################################')
 
 print('#'.join(stuff[3:5]))
