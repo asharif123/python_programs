@@ -16,6 +16,9 @@
 # cars_not_driver = cars - drivers
 # print ("There are", cars, "available!")
 # average_passengers_per_car = passengers / drivers
+#name = 'John Smith'
+#age = 29
+#is_new_patient = True
 
 # #string formatting
 # my_name = "Awad Sharif"
@@ -81,4 +84,21 @@
 # #holds arguments
 # from sys import argv
 
+##type conversion
+# birth_year = input('Birth year: ')
+# age = 2022 - int(birth_year)
+# print(age)
+# ##float() converts string in float
+# ##bool converts string into boolean value
+# ##type of variable
+# print(type(birth_year))
+weight = float(input("How much do you weight (in lbs)? "))
+print("You weight: ", round(weight*0.454, 2), "kgs!")
+sentence = ("Course for beginner\'s")
+
+first_name = "Awad"
+last_name = "Sharif"
+##string formatting 
+msg = f'{first_name + " " + last_name}'
+print(msg)
 

@@ -28,3 +28,6 @@ from sys import argv
 script, filename = argv
 print("The name of your file %s()" %(script))
 print((open(filename)).read())
+
+from selenium import webdriver
+
