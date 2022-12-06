@@ -1,26 +1,21 @@
 ##lists
-count = [1,2,3,4,5]
-change = [1, "pennies", 2, 'dimes', 3, 'quarters']
-for number in count:
-    print("This is the count: %s" %(number))
+##find largest number in a list
+numbers = [35,2,4,12,-2,-3,456,44,50,10]
+max_value = numbers[0]
+for i in range(len(numbers)):
+    if (max_value < numbers[i]):
+        max_value = numbers[i]
+print(max_value)
 
-numbers = []
-for i in range(5):
-    numbers.append(i)
-# print(numbers)
+##2D lists
+matrix = [[1,2,3],[4,5,6],[7,8,9]]
 
-##2D array
-twod_array = [[1,2,3],[4,5,6]]
-for list in twod_array:
-    for number in list:
-        print(number)
+#7
+print(matrix[2][0])
 
-#while loop
-i = 0
-numbers = []
-while i < 6:
-    print("The new i is %s" %(i))
-    i += 1
-
-
-
+##list methods
+numbers = [35,2,4,12,-2,-3,456,44,50,10]
+#pass index and what to add
+numbers.insert(4,"240")
+numbers.remove("240")
+print(numbers)
