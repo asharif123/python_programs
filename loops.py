@@ -86,9 +86,15 @@ for x_count in numbers:
     print(output)
 
 ##print the following
-##*
-##*
-##*
-##*
-##*
-##*****
+## *
+## *
+## *
+## *
+## *
+## *****
+numbers = [1,1,1,1,1,5]
+for count in numbers:
+    output = ''
+    for value in range(count):
+        output += '*'
+    print(output)
