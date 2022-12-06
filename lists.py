@@ -30,4 +30,25 @@ numbers.pop()
 numbers.index(-3)
 
 ##count number of occurances
-print(numbers.count(2))
+# print(numbers.count(2))
+
+#sort
+# print(numbers.sort())
+
+#reverse:
+# print(numbers.reverse())
+
+#copy
+numbers2 = numbers.copy()
+# print(numbers2)
+
+#append
+# numbers.append('append')
+# print(numbers)
+print(numbers)
+##remove duplicates in a list
+unique = []
+for value in numbers:
+    if value not in unique:
+        unique.append(value)
+print(unique)
