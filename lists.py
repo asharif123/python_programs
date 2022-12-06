@@ -14,10 +14,11 @@ matrix = [[1,2,3],[4,5,6],[7,8,9]]
 print(matrix[2][0])
 
 ##list methods
-numbers = [35,2,4,12,-2,-3,456,44,50,10]
+numbers = [35,2,4,12,-2,-3,456,44,50,10,2,2,22,18]
 #pass index and what to add
 numbers.insert(4,"240")
-numbers.remove("240 ")
+print(numbers)
+numbers.remove("240")
 print(numbers)
 
 #removes last item in list
@@ -29,4 +30,4 @@ numbers.pop()
 numbers.index(-3)
 
 ##count number of occurances
-numbers.count(2)
+print(numbers.count(2))
