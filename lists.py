@@ -52,3 +52,12 @@ for value in numbers:
     if value not in unique:
         unique.append(value)
 print(unique)
+
+##tuples: immutable (cannot change them)
+#can only use count and index to get info
+numbers = (1,2,3)
+
+##unpacking
+coordinates = (1,2,3)
+#unpacking coordinates tuple to 3 variables
+x,y,z = coordinates
