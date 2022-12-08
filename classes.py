@@ -6,6 +6,7 @@
 class Point:
     #consttuctor, use init method to initialize our objects
     def __init__(self,x,y):
+        #references current object
         self.x = x
         self.y = y
 
@@ -74,3 +75,23 @@ awad.talk()
 
 # fido = Dog("fido")
 # print(fido.name)
+
+
+###Inheritance
+class Mammal:
+    def walk(self):
+        print("walk")
+
+#Dog inherits from Mammal
+class Dog(Mammal):
+    def bark(self):
+        print("Woof!")
+
+
+class Cat(Mammal):
+    pass
+
+#dog inherits from Mammal class
+dog1 = Dog()
+dog1.walk()
+dog1.bark()
