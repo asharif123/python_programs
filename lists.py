@@ -10,8 +10,17 @@ print(max_value)
 ##2D lists
 matrix = [[1,2,3],[4,5,6],[7,8,9]]
 
-#7
-print(matrix[2][0])
+##reverse numbers
+def reverse_numbers(list1):
+    length = len(list1) - 1
+    reverse_list = []
+    while (length >= 0):
+        reverse_list.append(list1[length])
+        length -= 1
+    return reverse_list
+
+
+print(reverse_numbers([4,8,15,16,23,42]))
 
 ##list methods
 numbers = [35,2,4,12,-2,-3,456,44,50,10,2,2,22,18]
