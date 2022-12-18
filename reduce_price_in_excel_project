@@ -1,0 +1,5 @@
+##reduce each price by 10% and create a chart for each
+import openpyxl as xl
+
+#load excel workbook
+xl.load_workbook('transactions.xlsx')

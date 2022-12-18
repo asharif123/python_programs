@@ -1,5 +1,5 @@
 
-from sys import argv
+##from sys import argv
 
 ##run like this in the terminal: python3 arguments.py r s t
 
